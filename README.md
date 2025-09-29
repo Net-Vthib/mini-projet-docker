@@ -15,6 +15,7 @@ Construction de l'image
 docker build -t paymybuddy-backend:v1 .
 <img width="988" height="104" alt="Image" src="https://github.com/user-attachments/assets/ac129f29-8daa-426e-bbf1-253e52c148fb" />
 ```
+<img width="988" height="104" alt="Image" src="https://github.com/user-attachments/assets/ac129f29-8daa-426e-bbf1-253e52c148fb" />
 ## Création du docker-compose
 ```yaml
 services:
