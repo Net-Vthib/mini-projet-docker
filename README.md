@@ -154,10 +154,10 @@ INSERT INTO `transaction` (`fk_issuer_id`, `fk_payee_id`, `date`, `amount`, `des
         (5, 2, '2022-10-24 17:41:40', 10.00, 'Restaurant bill share');
 ```
 ## les 2 containers up
-```yaml
+
 ![Image](https://github.com/user-attachments/assets/3e66054b-029a-4088-9352-de4dd7797c2d)
 <img width="988" height="104" alt="Image" src="https://github.com/user-attachments/assets/ac129f29-8daa-426e-bbf1-253e52c148fb" />
-```
+
 
 ## Création d’un registre privé (Play Docker Eazytraining)
 ```yaml
