@@ -158,6 +158,13 @@ INSERT INTO `transaction` (`fk_issuer_id`, `fk_payee_id`, `date`, `amount`, `des
 ![Image](https://github.com/user-attachments/assets/3e66054b-029a-4088-9352-de4dd7797c2d)
 
 
+## Accès au webserver paymybuddy port 8080
+
+<img width="1197" height="599" alt="Image" src="https://github.com/user-attachments/assets/bfac23c5-6bcc-4ed4-850a-67c197e8df36" />
+
+## Accès au compte après sa création
+
+<img width="1746" height="654" alt="Image" src="https://github.com/user-attachments/assets/7535c6b7-054b-409c-b3df-26df8f2bf96f" />
 
 
 ## Création d’un registre privé (Play Docker Eazytraining)
