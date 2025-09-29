@@ -3,10 +3,10 @@
 ## Énoncé  
 [Énoncé du projet](https://github.com/eazytraining/bootcamp-project-update/tree/main/mini-projet-docker)
 
----
+
 
 ## Création du Dockerfile
-'''
+```yaml
 FROM amazoncorretto:17-alpine
 LABEL maintainer="netvthib@gmail.com"
 WORKDIR /app
@@ -14,7 +14,7 @@ COPY target/paymybuddy.jar /app/paymybuddy.jar
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","/app/paymybuddy.jar"]
 Construction de l'image
-'''
+```
 ## Création de l'image
 docker build -t paymybuddy-backend:v1 .
 
@@ -177,7 +177,7 @@ docker push  ip10-0-48-4-d3d71hu57ed000eubmk0-5000.direct.docker.labs.eazytraini
 
 docker tag mysql:8.0.43 ip10-0-48-4-d3d71hu57ed000eubmk0-5000.direct.docker.labs.eazytraining.fr/mysql:remote
 docker push ip10-0-48-4-d3d71hu57ed000eubmk0-5000.direct.docker.labs.eazytraining.fr/mysql:remote
-yaml
+```yaml
 
 
 
