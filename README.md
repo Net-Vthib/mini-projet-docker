@@ -1,14 +1,14 @@
 # mini-projet-docker
 
 #Ennoncé sur ce repo
-#https://github.com/eazytraining/bootcamp-project-update/tree/main/mini-projet-docker
+https://github.com/eazytraining/bootcamp-project-update/tree/main/mini-projet-docker
 
 
 
 
 #Création du dockerfile
-#FROM amazoncorretto:17-alpine
-#LABEL maintainer="netvthib@gmail.com"
+FROM amazoncorretto:17-alpine
+LABEL maintainer="netvthib@gmail.com"
 WORKDIR /app
 COPY target/paymybuddy.jar /app/paymybuddy.jar
 EXPOSE 8080
