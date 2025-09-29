@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # mini-projet-docker
 
 #Ennoncé sur ce repo
