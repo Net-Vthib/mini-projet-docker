@@ -1,10 +1,5 @@
 # mini-projet-docker
 
-## Énoncé  
-[Énoncé du projet](https://github.com/eazytraining/bootcamp-project-update/tree/main/mini-projet-docker)
-
-
-
 ## Création du Dockerfile
 ```yaml
 FROM amazoncorretto:17-alpine
