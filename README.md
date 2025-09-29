@@ -14,12 +14,15 @@ COPY target/paymybuddy.jar /app/paymybuddy.jar
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","/app/paymybuddy.jar"]
 Construction de l'image
-bash
-Copier le code
+
+## Création de l'image
+```image
 docker build -t paymybuddy-backend:v1 .
 Création du docker-compose.yml
-yaml
-Copier le code
+
+## Création du docker-compose
+```docker-compose
+
 services:
   mysql:
     image: mysql:8.0.43
@@ -59,8 +62,8 @@ volumes:
   db_data:
 
 
-
-Création du fichier .env
+## Création du fichier .env
+```env
 
 MYSQL_DATABASE=db_paymybuddy
 MYSQL_ROOT_PASSWORD=password
