@@ -6,6 +6,7 @@
 ---
 
 ## Création du Dockerfile
+'''
 FROM amazoncorretto:17-alpine
 LABEL maintainer="netvthib@gmail.com"
 WORKDIR /app
@@ -13,10 +14,9 @@ COPY target/paymybuddy.jar /app/paymybuddy.jar
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","/app/paymybuddy.jar"]
 Construction de l'image
-
+'''
 ## Création de l'image
 docker build -t paymybuddy-backend:v1 .
-Création du docker-compose.yml
 
 ## Création du docker-compose
 services:
