@@ -61,15 +61,17 @@ volumes:
 ```
 
 ## Création du fichier .env
+```yaml
 MYSQL_DATABASE=db_paymybuddy
 MYSQL_ROOT_PASSWORD=password
 SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/db_paymybuddy?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
 SPRING_DATASOURCE_USERNAME=root
 SPRING_DATASOURCE_PASSWORD=password
 SERVER_PORT=8080
-
+```
 
 ## Modification create.sql de initdb
+```yaml
 Ajout de IF NOT EXISTS :
 
 CREATE DATABASE IF NOT EXISTS db_paymybuddy;
@@ -151,10 +153,11 @@ INSERT INTO `transaction` (`fk_issuer_id`, `fk_payee_id`, `date`, `amount`, `des
         (5, 4, '2022-10-24 17:39:55', 8.00, 'Movie tickets'),
         (3, 5, '2022-10-24 17:41:03', 25.00, 'Trip money'),
         (5, 2, '2022-10-24 17:41:40', 10.00, 'Restaurant bill share');
-
+```
 
 
 ## Création d’un registre privé (Play Docker Eazytraining)
+```yaml
 docker network create eazy
 
 docker run -d \
@@ -174,12 +177,13 @@ docker run -d \
 
 
 ## Tag et push des images vers le registre privé
+
 docker tag paymybuddy-backend:v1 ip10-0-48-4-d3d71hu57ed000eubmk0-5000.direct.docker.labs.eazytraining.fr/paymubbuddy:remote
 docker push  ip10-0-48-4-d3d71hu57ed000eubmk0-5000.direct.docker.labs.eazytraining.fr/paymubbuddy:remote
 
 docker tag mysql:8.0.43 ip10-0-48-4-d3d71hu57ed000eubmk0-5000.direct.docker.labs.eazytraining.fr/mysql:remote
 docker push ip10-0-48-4-d3d71hu57ed000eubmk0-5000.direct.docker.labs.eazytraining.fr/mysql:remote
-```yaml
+```
 
 
 
