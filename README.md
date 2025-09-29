@@ -16,9 +16,11 @@ ENTRYPOINT ["java","-jar","/app/paymybuddy.jar"]
 Construction de l'image
 ```
 ## Création de l'image
+```yaml
 docker build -t paymybuddy-backend:v1 .
-
+```
 ## Création du docker-compose
+```yaml
 services:
   mysql:
     image: mysql:8.0.43
@@ -56,7 +58,7 @@ services:
 
 volumes:
   db_data:
-
+```
 
 ## Création du fichier .env
 MYSQL_DATABASE=db_paymybuddy
