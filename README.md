@@ -195,7 +195,15 @@ docker push  ip10-0-48-4-d3d71hu57ed000eubmk0-5000.direct.docker.labs.eazytraini
 docker tag mysql:8.0.43 ip10-0-48-4-d3d71hu57ed000eubmk0-5000.direct.docker.labs.eazytraining.fr/mysql:remote
 docker push ip10-0-48-4-d3d71hu57ed000eubmk0-5000.direct.docker.labs.eazytraining.fr/mysql:remote
 ```
+<img width="740" height="494" alt="Image" src="https://github.com/user-attachments/assets/b6b9422e-375c-4405-850f-a47d93c3f272" />
 
+<img width="1424" height="818" alt="Image" src="https://github.com/user-attachments/assets/85b1d32f-306a-4187-bffd-f1d088c8c7c7" />
+
+<img width="1418" height="181" alt="Image" src="https://github.com/user-attachments/assets/b4f2f40b-1292-4794-8620-09e340170f2c" />
+
+<img width="1169" height="470" alt="Image" src="https://github.com/user-attachments/assets/62cf32ae-2b62-44d5-84d8-7d0467ea444c" />
+
+<img width="1395" height="463" alt="Image" src="https://github.com/user-attachments/assets/566fca14-9965-49ac-856f-ebc1ef6341ce" />
 
 
 
