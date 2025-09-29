@@ -153,7 +153,7 @@ INSERT INTO `transaction` (`fk_issuer_id`, `fk_payee_id`, `date`, `amount`, `des
         (3, 5, '2022-10-24 17:41:03', 25.00, 'Trip money'),
         (5, 2, '2022-10-24 17:41:40', 10.00, 'Restaurant bill share');
 ```
-## Les 2 containers fonctionnel après un docker compose up
+## Les 2 containers sont fonctionnels après un docker compose up
 
 ![Image](https://github.com/user-attachments/assets/3e66054b-029a-4088-9352-de4dd7797c2d)
 
